@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\LABORATORIO A\Desktop\Examen1NayerRomero\Examen1NayerFavioRomeroAlmazan\PersonaListarVista.cs" Link="PersonaListarVista.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaEmpleado.BSS\SistemaEmpleado.BSS.csproj" />
+    <ProjectReference Include="..\SistemaEmpleado.Modelos\SistemaEmpleado.Modelos.csproj" />
+  </ItemGroup>
+
+</Project>
